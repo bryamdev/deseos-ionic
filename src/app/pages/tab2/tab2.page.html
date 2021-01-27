@@ -1,11 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="tertiary">
     <ion-title>
       Terminados
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="false">
+
+  <app-listas [terminada]="true"></app-listas>
   
 </ion-content>
